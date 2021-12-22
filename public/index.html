@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,11 +14,14 @@
         <img src="images/cloud.jpg" alt="clouds">
         <p>Welcome to my home in the clouds!</p>
 
-        <h2>Projects</h2>
+        <!-- The id property allows hyperlinks to point directly to this section by using ...#Projects -->
+        <h2 id="Projects">Projects</h2>
             <ul>
                 <li>Cloud Home</li>
                 <!-- The target attribute controls where the link opens. "_blank" opens in a new tab. -->
-                <li><a href="../../inertia-momentum/public/index.html" target="_blank">Inertia Momentum</a></li>
+                <li><a href="../../inertia-momentum/public/index.html" 
+                       target="_blank"
+                       title="The start of a game, based on an old 80s arcade game.">Inertia Momentum</a></li>
             </ul>
 <!--
          <h3>Cloud Home</h3>
@@ -27,9 +30,9 @@
             <h3>Inertia Momentum</h3>
             <p>An experiment with physics simulation.</p>
  -->    
-        <h2>Useful Links</h2>
+        <h2 id="Links">Useful Links</h2>
             <ul>
-                <li><a href="https://github.com/117nord" target="_blank">My Github</a></li>
+                <li><a href="https://github.com/117nord" target="_blank">My Github page</a></li>
             </ul>
     <button>Change user</button>
 </body>
